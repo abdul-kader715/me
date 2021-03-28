@@ -1,0 +1,622 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i|Oswald:200,300,400,500,600,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: 0;
+}
+
+body {
+    font-family: ;
+}
+
+.clr {
+    clear: both;
+}
+
+.pr-0 {
+    padding-right: 0 !important;
+}
+
+.me-0 {
+    margin-right: 0 !important;
+}
+
+ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+
+
+/*end of common css*/
+
+/*header area stert css*/
+.header {
+    background: #0872b9;
+}
+
+.heder-titel {}
+
+.heder-titel h2 {
+    color: #e7e7e7;
+    font-family: 'Open Sans';
+    font-size: 14px;
+    margin-bottom: 0;
+    padding: 10px 0;
+}
+
+.header-icon {
+    float: right;
+    margin-bottom: 0;
+}
+
+.header-icon li {}
+
+.header-icon li a {}
+
+.header-icon li a i {
+    color: #e7e7e7;
+    font-size: 14px;
+    padding: 10px 0 10px 30px;
+    transition: all .3s linear;
+}
+
+.header-icon li a i:hover {
+    color: #353535;
+}
+
+/*header area end css*/
+/*manubar stert css*/
+.header-area {}
+
+.heder-logo {
+    padding: 20px 0;
+}
+
+.memubar {
+    float: right;
+}
+
+.memubar li {
+    padding-top: 30px;
+}
+
+.memubar li a {
+    color: #353535;
+    padding-left: 15px;
+    text-decoration: none;
+    transition: all .3s linear;
+}
+
+.memubar li a:hover {
+    color: #0872b9;
+}
+
+/*manubar end css*/
+/*banner area stert css*/
+.banner-area {
+    background: url(../images/banner-bg.jpg)no-repeat;
+    background-size: cover;
+    width: 100%;
+    padding: 90px 0;
+    position: relative;
+}
+
+.banner-area:before {
+    position: absolute;
+    content: '';
+    top: 0;
+    left: 0;
+    background: rgba(53, 53, 53, 0.6);
+    width: 100%;
+    height: 100%;
+}
+
+.banner-titel {}
+
+.banner-titel h3 {
+    color: #ffffff;
+    font-size: 30px;
+    font-weight: 500;
+    font-family: 'Oswald';
+    text-transform: uppercase;
+}
+
+.banner-titel h4 {
+    color: #ffffff;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Oswald';
+    text-transform: uppercase;
+}
+
+.banner-titel p {
+    color: #ffffff;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: 'OpenSans';
+    padding-bottom: 30px;
+}
+
+.hier {
+    padding: 10px 20px;
+    font-size: 14px;
+    background: none;
+    text-transform: uppercase;
+    font-weight: 400;
+    font-family: 'Oswald';
+    color: #fff;
+    transition: all .3s;
+    margin-left: 20px;
+}
+
+.hier:hover {
+    background: #0872b9;
+    border: none;
+}
+
+
+/*banner area end css*/
+
+/*about us area stert css*/
+
+.about-area {
+    margin: 60px 0;
+}
+
+.section-title {
+    padding-bottom: 40px;
+}
+
+.section-title h1 {
+    color: #353535;
+    font-size: 39px;
+    font-weight: 500;
+    font-family: 'Oswald';
+    text-transform: uppercase;
+    border-bottom: 2px solid#0872b9;
+    width: 100%;
+    padding-bottom: 5px;
+    margin-bottom: 0;
+}
+
+.about-images {
+    position: relative;
+    z-index: 1;
+}
+
+.about-images:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 20px;
+    width: 100%;
+    background: url(../images/about-bg-images.png);
+    background-repeat: no-repeat;
+    z-index: -1;
+    height: 100%;
+}
+
+.about-text {
+    padding: 45px 0;
+}
+
+.about-text p {
+    color: #555555;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: 'OpenSans';
+}
+
+/*about us area end css*/
+
+/*Our Services area stert css*/
+.services-wepar {
+position: relative;
+    transition: all .4s;
+    margin: 30px 0;
+}
+
+.services-wepar:hover .services-icon {
+    background: #46d5f7;
+
+}
+.services-wepar:hover .services-icon:after{
+    border: 2px solid #46d5f7;
+}
+.services-wepar:hover {
+    box-shadow: 1px 2px 1px 2px #c7c7c7;
+}
+
+.services-icon:after {
+    content: '';
+    position: absolute;
+    left: 35px;
+    top: -5px;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    z-index: 1;
+    border: 2px solid #f1f1f1;
+    width: 80px;
+    height: 80px;
+}
+
+.services-icon:before{
+    content: '';
+    position:absolute;
+
+}
+.services-text{
+    
+}
+.services-text:before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    top: -40px;
+    transform: translate(-50%);
+    background: #fff;
+    width: 88px;
+    height: 85px;
+    border-radius: 50px;
+}
+
+.services-icon {
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background: #f1f1f1;
+    position: absolute;
+    z-index: 1;
+    left: 40%;
+    top: -20%;
+}
+
+.services-icon img {
+    padding-top: 15px;
+}
+
+.services-text {
+    background: #f1f1f1;
+    position: relative;
+}
+
+.services-text h5 {
+    padding-top: 50px;
+    text-transform: uppercase;
+    color: #353535;
+    font-weight: 500;
+    font-family: 'Oswald';
+}
+
+.services-text p {
+    padding: 0 25px 20px 25px;
+    color: #555555;
+    font-weight: 400;
+    font-family: 'OpenSans';
+    font-size: 15px;
+}
+
+/*Our Services area end css*/
+
+/*Our Portfolio area stert css*/
+.portfio-images {
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.portfio-images img {
+    width: 100%;
+
+}
+
+.icon a {
+    color: #ffffff;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    background: #5bc5f4;
+    z-index: 1;
+    padding: 6px 0 0 10px;
+}
+
+.portfio-images .icon {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    background: rgba(0, 0, 0, 0.6);
+    visibility: hidden;
+    opacity: 0;
+    transition: all .4s ease-in-out 0s;
+    transform: scaleY(0);
+    transform-origin: center;
+    padding-left: 40%;
+}
+
+.portfio-images:hover .icon {
+    visibility: visible;
+    opacity: 1;
+    transform: scaleY(1);
+}
+
+/*Our Portfolio area end*/
+
+/*Our Team area stert css*/
+.team-area {
+    margin: 60px 0;
+}
+
+.team-title {
+    margin-bottom: 35px;
+}
+
+.team-title h1 {
+    color: #353535;
+    font-size: 37px;
+    font-weight: 500;
+    font-family: 'Oswald';
+    text-transform: uppercase;
+    border-bottom: 2px solid#0872b9;
+    width: 100%;
+    padding-bottom: 5px;
+    margin-bottom: 0;
+}
+
+.team-weper {
+    position: relative;
+
+}
+
+.term-image img {
+    width: 100%;
+}
+
+.tram-icon i {
+    color: #ffffff;
+    font-size: 20px;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+    z-index: 1;
+    padding: 10px 0 0 12px;
+    margin: 0 0 10px 30px;
+    border: 1px solid #fff;
+    transition: all .3s;
+}
+
+.tram-icon i:hover {
+    background: #22a2db;
+}
+
+.tram-icon {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 40%;
+    height: 84%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: left;
+    background: rgba(0, 0, 0, 0.6);
+    visibility: hidden;
+    opacity: 0;
+    transition: all .4s ease-in-out 0s;
+    transform: scaleX(0);
+    transform-origin: right;
+
+}
+
+.team-weper:hover .tram-icon {
+    visibility: visible;
+    opacity: 1;
+    transform: scaleX(1);
+
+}
+
+.tram-text h3 {
+    color: #353535;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: 'Oswald';
+    text-transform: uppercase;
+    text-align: center;
+    padding-top: 10px;
+    transition: all .3s;
+}
+
+.team-weper:hover .tram-text h3 {
+    color: #22a2db;
+}
+
+.tram-text p {
+    color: #555555;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: 'Oswald';
+    text-align: center;
+}
+
+/*Our Team area end css*/
+/*Testimonial area stert*/
+.Test-area {}
+
+.Test-images {
+    padding-bottom: 35px;
+}
+
+.Test-waper {
+    background: #f1f1f1;
+    padding: 25px;
+    position: relative;
+
+}
+
+/*
+.Test-waper:before {
+    content: '';
+    position: absolute;
+    top: -30px;
+    left: 50%;
+    z-index: -1;
+    transform: translate(-50%);
+    border-top:20px solid red;
+    border-left: 25px solid #f1f1f1;
+    border-right:25px solid green;
+    border-bottom: 20px solid #000;
+}
+*/
+
+.Test-waper:before {
+    content: '';
+    position: absolute;
+    top: -20px;
+    left: 50%;
+    z-index: -1;
+    transform: translate(-50%);
+    border-right: 25px solid transparent;
+    border-left: 25px solid transparent;
+    border-bottom: 20px solid #f1f1f1;
+}
+
+.Test-waper h3 {
+    color: #353535;
+    font-size: 24px;
+    font-weight: 400;
+    font-family: 'Oswald';
+    text-transform: uppercase;
+}
+
+.Test-icon {
+    color: #5bc5f4;
+    font-size: 16px;
+}
+
+.Test-text {}
+
+.Test-text h2 {
+    color: #555555;
+    font-size: 16px;
+}
+
+.Test-text p {
+    color: #555555;
+    font-size: 15px;
+    font-weight: 400;
+    font-family: 'Oswald';
+}
+
+/*Testimonial area css*/
+/*footer area stert css*/
+.footer-area{
+    background:#353535;
+    padding: 20px 0;
+    margin-top: 60px;
+}
+
+    
+.footer-logo p{
+    padding-top: 30px;
+     color: #f1f1f1;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: 'Oswald';
+}
+}
+.footer-text{
+    padding-top: 30px;
+      color: #f1f1f1;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: 'Oswald';
+}
+.Contact{
+    
+}
+.Contact h3 {
+    color: #ffffff;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: 'Oswald';
+    padding-top: 20px;
+    padding-bottom: 27px;
+}
+.contact-texts{
+    margin-right: 110px;
+}
+.Contact-icon{
+    float: left;
+    width: 40px;
+    height: 40px;
+    border-radius:50%;
+    background: #5bc5f4;
+}
+
+.Contact-icon i{
+    text-align: center;
+    color: #fff;
+    font-size: 20px;
+    padding: 13px;
+}
+
+
+.Contact-text{
+    float: left;
+    padding-left: 10px;
+}
+
+.Contact-text p{
+    
+     color: #f1f1f1;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: 'Oswald';
+}
+.Contact-text .number{
+    color: #f1f1f1;
+    font-size: 15px;
+    font-weight: 300;
+    font-family: 'Oswald';
+}
+.foouer-menu ul li{
+    display: block;
+    
+}
+.foouer-menu ul li a {
+    text-decoration: none;
+    color: aliceblue;
+    transition: all .3s;
+}
+.foouer-menu ul li a:hover{
+    color: aqua;
+}
+.footer-images{
+    
+}
+
+.footer-images img{
+   padding:0 15px 15px 0;
+}
+.bottom-area{
+    background:#555555;
+}
+.bottum-text{
+    text-align: center;
+   
+}
+.bottum-text p{
+    
+}
+.bottum-text h5{
+    
+}
+/*footer area end css*/
